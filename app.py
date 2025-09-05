@@ -19,7 +19,7 @@ groq_api_key = os.getenv("GROQ_API_KEY")
 
 # 🔹 Choose Groq model (you can try: "llama3-70b-8192", "llama3-8b-8192", etc.)
 llm = ChatGroq(
-    model="llama-3.3-70b-versatile",
+    model="meta-llama/llama-4-scout-17b-16e-instruct",
     temperature=0.8,   # slightly creative
     max_tokens=512,
     api_key=groq_api_key
