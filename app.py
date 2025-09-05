@@ -1,6 +1,5 @@
 from flask import Flask, request, jsonify, render_template
 import random
-import time
 from datetime import datetime
 
 app = Flask(__name__, static_folder='static', template_folder='templates')
